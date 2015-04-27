@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32534073B04C9BBEAD721C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7B9A97C6B03B085FEC85A7 /* Foundation.framework */; };
+		77B48EFEF6E2006B7082813E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7B9A97C6B03B085FEC85A7 /* Foundation.framework */; };
+		8C69B2626A20608AD0AB20F7 /* Pods-JVMenuButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D770877EF17AC83013EA30A7 /* Pods-JVMenuButton-dummy.m */; };
+		91AA43006C78634A79BBF49A /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB563AC8CFF07C0BE08106D4 /* Pods-Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A86450CEDD0ABCC493BBC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822883B8029BC4507EC16E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B61BCD3C8247FAA3E6289B3;
+			remoteInfo = "Pods-Tests-JVMenuButton-JVMenuButton";
+		};
+		526E574B506A312738C7D6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822883B8029BC4507EC16E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4D553467EB293780B7D95C;
+			remoteInfo = "Pods-JVMenuButton-JVMenuButton-JVMenuButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B87019EE0C21A9E8503F34 /* Pods-JVMenuButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMenuButton.release.xcconfig"; sourceTree = "<group>"; };
+		12EC1F7EA80C62B07904D305 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		239F2406EDCE09A7CFBF8D30 /* Pods-JVMenuButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVMenuButton-resources.sh"; sourceTree = "<group>"; };
+		23BDDB12451BFE8195CF60FD /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A574A81FCA7EBC250C03C56 /* Pods-JVMenuButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMenuButton.debug.xcconfig"; sourceTree = "<group>"; };
+		3AC1E31CC537CBD27DC7B680 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C784A34851A1108BAD1263D /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DBDFDFDAF98DD71BA026B86 /* Pods-JVMenuButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVMenuButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71E1D9D1CA1F1863CF96D61E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83A0499665A71A26E5126FF3 /* Pods-JVMenuButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVMenuButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0A92B36C9A82780305001F7 /* JVMenuButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVMenuButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47BA8AC3FD8148F3A2D1682 /* Pods-JVMenuButton-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVMenuButton-environment.h"; sourceTree = "<group>"; };
+		B16BF54853FD239B20FF5D14 /* libPods-JVMenuButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JVMenuButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB563AC8CFF07C0BE08106D4 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		BFD543B31CCD2B5C5C0DEB43 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		D770877EF17AC83013EA30A7 /* Pods-JVMenuButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVMenuButton-dummy.m"; sourceTree = "<group>"; };
+		E35C269678DCB3751FD583BF /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ECFA130B51AD087769C1D98F /* JVMenuButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVMenuButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE72C60BC6C5C73EC7AB9A16 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		FD7B9A97C6B03B085FEC85A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0216F891B08E4D3AB0B27606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B48EFEF6E2006B7082813E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7890CCF256BE9515664A3464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F890F23264ECA3EBADC16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E122933560BA150DFAB8A9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32534073B04C9BBEAD721C64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFBF69F1B051A38B2EAAE18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F3CC2240AB734A30C62A483 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12877C952DF91BD877ABFD1F /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C784A34851A1108BAD1263D /* Pods-Tests-acknowledgements.markdown */,
+				12EC1F7EA80C62B07904D305 /* Pods-Tests-acknowledgements.plist */,
+				BB563AC8CFF07C0BE08106D4 /* Pods-Tests-dummy.m */,
+				EE72C60BC6C5C73EC7AB9A16 /* Pods-Tests-environment.h */,
+				BFD543B31CCD2B5C5C0DEB43 /* Pods-Tests-resources.sh */,
+				3AC1E31CC537CBD27DC7B680 /* Pods-Tests.debug.xcconfig */,
+				E35C269678DCB3751FD583BF /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		25F5DF516233D622E9696D8E /* JVMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JVMenuButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		26C5C70208EF46BBAF124709 /* Pods-JVMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				6DBDFDFDAF98DD71BA026B86 /* Pods-JVMenuButton-acknowledgements.markdown */,
+				83A0499665A71A26E5126FF3 /* Pods-JVMenuButton-acknowledgements.plist */,
+				D770877EF17AC83013EA30A7 /* Pods-JVMenuButton-dummy.m */,
+				A47BA8AC3FD8148F3A2D1682 /* Pods-JVMenuButton-environment.h */,
+				239F2406EDCE09A7CFBF8D30 /* Pods-JVMenuButton-resources.sh */,
+				3A574A81FCA7EBC250C03C56 /* Pods-JVMenuButton.debug.xcconfig */,
+				02B87019EE0C21A9E8503F34 /* Pods-JVMenuButton.release.xcconfig */,
+			);
+			name = "Pods-JVMenuButton";
+			path = "Target Support Files/Pods-JVMenuButton";
+			sourceTree = "<group>";
+		};
+		4DD61279F41F3048CC36C6BA = {
+			isa = PBXGroup;
+			children = (
+				71E1D9D1CA1F1863CF96D61E /* Podfile */,
+				EBE5D3B3E6FD574D34454687 /* Development Pods */,
+				0AFBF69F1B051A38B2EAAE18 /* Frameworks */,
+				7DBDCF33E57C7D93AAB964EB /* Products */,
+				FF32D5E75E1E264DFDC50139 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DBDCF33E57C7D93AAB964EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA130B51AD087769C1D98F /* JVMenuButton.bundle */,
+				A0A92B36C9A82780305001F7 /* JVMenuButton.bundle */,
+				B16BF54853FD239B20FF5D14 /* libPods-JVMenuButton.a */,
+				23BDDB12451BFE8195CF60FD /* libPods-Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F3CC2240AB734A30C62A483 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B9A97C6B03B085FEC85A7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBE5D3B3E6FD574D34454687 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25F5DF516233D622E9696D8E /* JVMenuButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF32D5E75E1E264DFDC50139 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26C5C70208EF46BBAF124709 /* Pods-JVMenuButton */,
+				12877C952DF91BD877ABFD1F /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16DCA6A790447F05D38879CE /* Pods-JVMenuButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2D92AAE9D9231E91D69751 /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton" */;
+			buildPhases = (
+				45D05708E1D8DB4C74B59FDF /* Sources */,
+				E122933560BA150DFAB8A9F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB1FE4190690795F92A41D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-JVMenuButton";
+			productName = "Pods-JVMenuButton";
+			productReference = B16BF54853FD239B20FF5D14 /* libPods-JVMenuButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B61BCD3C8247FAA3E6289B3 /* Pods-Tests-JVMenuButton-JVMenuButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E90F1ACE88763E5BC78B72 /* Build configuration list for PBXNativeTarget "Pods-Tests-JVMenuButton-JVMenuButton" */;
+			buildPhases = (
+				DCA64EF85AD89F3583C98C22 /* Sources */,
+				7890CCF256BE9515664A3464 /* Frameworks */,
+				E21A178E51E4629F3E46C0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-JVMenuButton-JVMenuButton";
+			productName = "Pods-Tests-JVMenuButton-JVMenuButton";
+			productReference = A0A92B36C9A82780305001F7 /* JVMenuButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9C4D553467EB293780B7D95C /* Pods-JVMenuButton-JVMenuButton-JVMenuButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7146AF95749BC1069278A1 /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton-JVMenuButton-JVMenuButton" */;
+			buildPhases = (
+				283D20BFE1181164ADA4C3E7 /* Sources */,
+				D0F890F23264ECA3EBADC16B /* Frameworks */,
+				CA48E2AD4B89ECD33059DDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JVMenuButton-JVMenuButton-JVMenuButton";
+			productName = "Pods-JVMenuButton-JVMenuButton-JVMenuButton";
+			productReference = ECFA130B51AD087769C1D98F /* JVMenuButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A5352EFCB5E4E04395C3A931 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FD7A0A461B9E43B2253EA5 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				81513316558163D6D93F7EBA /* Sources */,
+				0216F891B08E4D3AB0B27606 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A2639CC25790121C3B8837C /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 23BDDB12451BFE8195CF60FD /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822883B8029BC4507EC16E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 61065EF1D93CFFDB5193F7C8 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DD61279F41F3048CC36C6BA;
+			productRefGroup = 7DBDCF33E57C7D93AAB964EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16DCA6A790447F05D38879CE /* Pods-JVMenuButton */,
+				9C4D553467EB293780B7D95C /* Pods-JVMenuButton-JVMenuButton-JVMenuButton */,
+				A5352EFCB5E4E04395C3A931 /* Pods-Tests */,
+				6B61BCD3C8247FAA3E6289B3 /* Pods-Tests-JVMenuButton-JVMenuButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA48E2AD4B89ECD33059DDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21A178E51E4629F3E46C0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283D20BFE1181164ADA4C3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D05708E1D8DB4C74B59FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C69B2626A20608AD0AB20F7 /* Pods-JVMenuButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81513316558163D6D93F7EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AA43006C78634A79BBF49A /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA64EF85AD89F3583C98C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A2639CC25790121C3B8837C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-JVMenuButton-JVMenuButton";
+			target = 6B61BCD3C8247FAA3E6289B3 /* Pods-Tests-JVMenuButton-JVMenuButton */;
+			targetProxy = 2A86450CEDD0ABCC493BBC5E /* PBXContainerItemProxy */;
+		};
+		EFB1FE4190690795F92A41D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JVMenuButton-JVMenuButton-JVMenuButton";
+			target = 9C4D553467EB293780B7D95C /* Pods-JVMenuButton-JVMenuButton-JVMenuButton */;
+			targetProxy = 526E574B506A312738C7D6B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C7D67831850B7302A7D6696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JVMenuButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		449CB9914907508679274417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35C269678DCB3751FD583BF /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6008C9783AE35BFF69B7210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A574A81FCA7EBC250C03C56 /* Pods-JVMenuButton.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		726E0A882C2000AB3E259FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JVMenuButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9542365B8ED6DFC887374D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JVMenuButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		986FCB726BD73FFF137A279D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC1E31CC537CBD27DC7B680 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D8D22C19BC060BBDF4261C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E8146C4BD3C8B519EA9780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JVMenuButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F58958DACFDED0285BB28FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FD3D5E492038473B781C0F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B87019EE0C21A9E8503F34 /* Pods-JVMenuButton.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7146AF95749BC1069278A1 /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton-JVMenuButton-JVMenuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7D67831850B7302A7D6696 /* Debug */,
+				726E0A882C2000AB3E259FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FD7A0A461B9E43B2253EA5 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986FCB726BD73FFF137A279D /* Debug */,
+				449CB9914907508679274417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61065EF1D93CFFDB5193F7C8 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58958DACFDED0285BB28FD0 /* Debug */,
+				D8D22C19BC060BBDF4261C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E90F1ACE88763E5BC78B72 /* Build configuration list for PBXNativeTarget "Pods-Tests-JVMenuButton-JVMenuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E8146C4BD3C8B519EA9780 /* Debug */,
+				9542365B8ED6DFC887374D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2D92AAE9D9231E91D69751 /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6008C9783AE35BFF69B7210C /* Debug */,
+				FD3D5E492038473B781C0F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822883B8029BC4507EC16E3D /* Project object */;
+}

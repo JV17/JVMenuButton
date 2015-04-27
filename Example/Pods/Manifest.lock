@@ -1,0 +1,14 @@
+PODS:
+  - JVMenuButton (0.1.0)
+
+DEPENDENCIES:
+  - JVMenuButton (from `../`)
+
+EXTERNAL SOURCES:
+  JVMenuButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVMenuButton: 83dc26e49c21275dd30e8c55f4524f3c5a20b31e
+
+COCOAPODS: 0.36.4
