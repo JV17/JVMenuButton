@@ -10,9 +10,9 @@
 #import "CAShapeLayer+Animations.h"
 
 #define MENU_STROKE_START 0.325
-#define MENU_STROKE_END 0.9
+#define MENU_STROKE_END 0.91
 #define BUTTON_STROKE_START 0.028
-#define BUTTON_STROKE_END 0.111
+#define BUTTON_STROKE_END 0.109
 
 
 @interface JVMenuButton()
@@ -23,6 +23,10 @@
 
 @property (nonatomic) CGPathRef btnShortStroke;
 @property (nonatomic) CGPathRef btnOutline;
+
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat x;
+@property (nonatomic) CGFloat y;
 
 @end
 
@@ -40,12 +44,14 @@
 */
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
-    @throw [NSException exceptionWithName:NSGenericException reason:@"Use the `initWithFrame:(CGRect)frame` method instead." userInfo:nil];
+    @throw [NSException exceptionWithName:NSGenericException
+                                   reason:@"Use the `initWithFrame:(CGRect)frame` method instead."
+                                 userInfo:nil];
 }
 
 
 /**
- *  Creates a JVMenuButton with no frame and initialize all dependencies of the button
+ *  Creates a JVMenuButton with no frame, standard color and line width. Also, initialize all dependencies of the button
  *
  *  @param n/a
  *
@@ -53,12 +59,12 @@
 */
 - (instancetype)init
 {
-    return [self initWithFrame:CGRectZero];
+    return [self initWithFrame:CGRectZero color:[UIColor whiteColor] lineWidth:4];
 }
 
 
 /**
- *  Creates a JVMenuButton with frame and initialize all dependencies of the button
+ *  Creates a JVMenuButton with frame, standard color and line width. Also, initialize all dependencies of the button
  *
  *  @param a CGRect which specifies the button frame
  *
@@ -66,12 +72,46 @@
  */
 - (instancetype)initWithFrame:(CGRect)frame
 {
+    return [self initWithFrame:frame color:[UIColor whiteColor] lineWidth:4];
+}
+
+
+/**
+ *  Creates a JVMenuButton with frame, button color, button line width and initialize all dependencies of the button
+ *
+ *  @param a CGRect which specifies the button frame
+ *  @param a UIColor which specifies the button color
+ *  @param a CGFloat which specifies the button line width
+ *
+ *  @return a JVMenuButton
+ */
+- (instancetype)initWithFrame:(CGRect)frame color:(UIColor *)color lineWidth:(CGFloat)lineWidth
+{
     if (!(self = [super initWithFrame:frame]))
         return nil;
+
+    // we need to check that our button has the width and height
+    [self checkButtonSizeFrame:frame.size];
+    
+    // setting button custom color and line width
+    self.color = (self.color == nil) ? color : [UIColor whiteColor];
+    self.lineWidth = (self.lineWidth == 0.0f) ? lineWidth : 4;
     
     [self commonInit];
     
     return self;
+}
+
+
+
+- (void)checkButtonSizeFrame:(CGSize)size
+{
+    if(size.width != size.height)
+    {
+        @throw [NSException exceptionWithName:NSGenericException
+                                       reason:@"Use the same WIDTH and HEIGHT for the button frame."
+                                     userInfo:nil];
+    }
 }
 
 
@@ -83,6 +123,11 @@
 */
 - (void)commonInit
 {
+    // keeping track of the button frame
+    self.width = self.frame.size.width;
+    self.x = self.frame.origin.x;
+    self.y = self.frame.origin.y;
+    
     self.topLayer.path = self.btnShortStroke;
     self.middleLayer.path = self.btnOutline;
     self.bottomLayer.path = self.btnShortStroke;
@@ -90,13 +135,13 @@
     for(CAShapeLayer *btnLayer in @[self.topLayer, self.middleLayer, self.bottomLayer])
     {
         btnLayer.fillColor = nil;
-        btnLayer.strokeColor = [UIColor whiteColor].CGColor;
-        btnLayer.lineWidth = 4;
-        btnLayer.miterLimit = 4;
+        btnLayer.strokeColor = self.color.CGColor;
+        btnLayer.lineWidth = self.lineWidth;
+        btnLayer.miterLimit = self.lineWidth;
         btnLayer.lineCap = kCALineCapRound;
         btnLayer.masksToBounds = YES;
         
-        CGPathRef strokingPath = CGPathCreateCopyByStrokingPath(btnLayer.path, nil, 4, kCGLineCapRound, kCGLineJoinMiter, 4);
+        CGPathRef strokingPath = CGPathCreateCopyByStrokingPath(btnLayer.path, nil, self.lineWidth, kCGLineCapRound, kCGLineJoinMiter, self.lineWidth);
         
         btnLayer.bounds = CGPathGetPathBoundingBox(strokingPath);
         
@@ -107,15 +152,15 @@
         [self.layer addSublayer:btnLayer];
     }
     
-    self.topLayer.anchorPoint = CGPointMake(28.0 / 30.0, 0.5);
-    self.topLayer.position = CGPointMake(40, 18);
+    self.topLayer.anchorPoint = CGPointMake(self.width / (self.width+2.5), 0.5);
+    self.topLayer.position = CGPointMake(self.width/1.35, self.width/3);
     
-    self.middleLayer.position = CGPointMake(27, 27);
+    self.middleLayer.position = CGPointMake(self.width/2, self.width/2);
     self.middleLayer.strokeStart = BUTTON_STROKE_START;
     self.middleLayer.strokeEnd = BUTTON_STROKE_END;
     
-    self.bottomLayer.anchorPoint = CGPointMake(28.0 / 30.0, 0.5);
-    self.bottomLayer.position = CGPointMake(40, 36);
+    self.bottomLayer.anchorPoint = CGPointMake(self.width / (self.width+2.5), 0.5);
+    self.bottomLayer.position = CGPointMake(self.width/1.35, self.width/1.5);
     
 }
 
@@ -184,7 +229,7 @@
     //create mutable path
     CGMutablePathRef path = CGPathCreateMutable();
     CGPathMoveToPoint(path, nil, 2, 2);
-    CGPathAddLineToPoint(path, nil, 28, 2);
+    CGPathAddLineToPoint(path, nil, self.width/2+1, 2);
     
     return path;
 }
@@ -200,16 +245,56 @@
 {
     //create mutable path
     CGMutablePathRef path = CGPathCreateMutable();
-    CGPathMoveToPoint(path, nil, 10, 27);
-    CGPathAddCurveToPoint(path, nil, 12.00, 27.00, 28.02, 27.00, 40, 27);
-    CGPathAddCurveToPoint(path, nil, 55.92, 27.00, 50.47,  2.00, 27,  2);
-    CGPathAddCurveToPoint(path, nil, 13.16,  2.00,  2.00, 13.16,  2, 27);
-    CGPathAddCurveToPoint(path, nil,  2.00, 40.84, 13.16, 52.00, 27, 52);
-    CGPathAddCurveToPoint(path, nil, 40.84, 52.00, 52.00, 40.84, 52, 27);
-    CGPathAddCurveToPoint(path, nil, 52.00, 13.16, 42.39,  2.00, 27,  2);
-    CGPathAddCurveToPoint(path, nil, 13.16,  2.00,  2.00, 13.16,  2, 27);
+    CGPathMoveToPoint(path, nil, self.width/5, self.width/2);
+    CGPathAddCurveToPoint(path, nil, self.width/4.5, self.width/2, self.width/2+1, self.width/2, self.width/1.35, self.width/2);
+    CGPathAddCurveToPoint(path, nil, self.width+2, self.width/2, self.width/1.07,  2.00, self.width/2,  2);
+    CGPathAddCurveToPoint(path, nil, self.width/4.1,  2.00,  2.00, self.width/4.1,  2, self.width/2);
+    CGPathAddCurveToPoint(path, nil,  2.00, self.width/1.322, self.width/4.1, self.width-2, self.width/2, self.width-2);
+    CGPathAddCurveToPoint(path, nil, self.width/1.322, self.width-2, self.width-2, self.width/1.322, self.width-2, self.width/2);
+    CGPathAddCurveToPoint(path, nil, self.width-2, self.width/4.1, self.width/1.274,  2.00, self.width/2,  2);
+    CGPathAddCurveToPoint(path, nil, self.width/4.1,  2.00,  2.00, self.width/4.1,  2, self.width/2);
     
     return path;
+}
+
+
+/**
+ *  Custom setter for color UIColor, here we want to set the property
+ *  and update the button if its already been created
+ *
+ *  @param a UIColor color
+ *
+ *  @return n/a (void)
+ */
+- (void)setColor:(UIColor *)color
+{
+    _color = color;
+    
+    if(self.window)
+    {
+        // update button
+        [self commonInit];
+    }
+}
+
+
+/**
+ *  Custom setter for lineWidth CGFloat, here we want to set the property
+ *  and update the button if its already been created
+ *
+ *  @param a CGFloat lineWidth
+ *
+ *  @return n/a (void)
+ */
+- (void)setLineWidth:(CGFloat)lineWidth
+{
+    _lineWidth = lineWidth;
+    
+    if(self.window)
+    {
+        // update button
+        [self commonInit];
+    }
 }
 
 

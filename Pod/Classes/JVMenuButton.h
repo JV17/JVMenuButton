@@ -17,13 +17,26 @@
 
 #pragma mark - Properties
 
+@property (nonatomic, strong) UIColor *color;
 @property (nonatomic) BOOL showButton;
-
+@property (nonatomic) CGFloat lineWidth;
 
 #pragma mark - Initializers
 
 /**
- *  Creates a JVMenuButton with no frame and initialize all dependencies of the button
+ *  Creates a JVMenuButton with frame, button color, button line width and initialize all dependencies of the button
+ *
+ *  @param a CGRect which specifies the button frame
+ *  @param a UIColor which specifies the button color
+ *  @param a CGFloat which specifies the button line width
+ *
+ *  @return a JVMenuButton
+ */
+- (instancetype)initWithFrame:(CGRect)frame color:(UIColor *)color lineWidth:(CGFloat)lineWidth;
+
+
+/**
+ *  Creates a JVMenuButton with no frame, standard color and line width. Also, initialize all dependencies of the button
  *
  *  @param n/a
  *
@@ -33,7 +46,7 @@
 
 
 /**
- *  Creates a JVMenuButton with frame and initialize all dependencies of the button
+ *  Creates a JVMenuButton with frame, standard color and line width. Also, initialize all dependencies of the button
  *
  *  @param a CGRect which specifies the button frame
  *
