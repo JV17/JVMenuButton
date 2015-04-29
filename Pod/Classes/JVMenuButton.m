@@ -103,7 +103,12 @@
 }
 
 
-
+/**
+ *  Added a check for button size, to avoid odd button drawing when animating 
+ *  the button should have the same width and height for animation work as expected
+ *
+ *  @return n/a (void)
+ */
 - (void)checkButtonSizeFrame:(CGSize)size
 {
     if(size.width != size.height)
