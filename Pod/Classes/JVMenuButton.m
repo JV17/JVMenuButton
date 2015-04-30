@@ -25,9 +25,6 @@
 @property (nonatomic) CGPathRef btnOutline;
 
 @property (nonatomic) CGFloat width;
-@property (nonatomic) CGFloat height;
-@property (nonatomic) CGFloat x;
-@property (nonatomic) CGFloat y;
 
 @end
 
@@ -132,9 +129,6 @@
 {
     // keeping track of the button frame
     self.width = self.frame.size.width;
-    self.height = self.frame.size.height;
-    self.x = self.frame.origin.x;
-    self.y = self.frame.origin.y;
     
     self.topLayer.path = self.btnShortStroke;
     self.middleLayer.path = self.btnOutline;
