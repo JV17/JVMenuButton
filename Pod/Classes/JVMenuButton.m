@@ -11,7 +11,7 @@
 
 #define MENU_STROKE_START 0.325
 #define MENU_STROKE_END 0.91
-#define BUTTON_STROKE_START 0.028
+#define BUTTON_STROKE_START 0.026
 #define BUTTON_STROKE_END 0.109
 
 
@@ -25,10 +25,12 @@
 @property (nonatomic) CGPathRef btnOutline;
 
 @property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
 @property (nonatomic) CGFloat x;
 @property (nonatomic) CGFloat y;
 
 @end
+
 
 @implementation JVMenuButton
 
@@ -130,6 +132,7 @@
 {
     // keeping track of the button frame
     self.width = self.frame.size.width;
+    self.height = self.frame.size.height;
     self.x = self.frame.origin.x;
     self.y = self.frame.origin.y;
     
@@ -233,8 +236,8 @@
 {
     //create mutable path
     CGMutablePathRef path = CGPathCreateMutable();
-    CGPathMoveToPoint(path, nil, 2, 2);
-    CGPathAddLineToPoint(path, nil, self.width/2+1, 2);
+    CGPathMoveToPoint(path, nil, self.width/27, self.width/27);
+    CGPathAddLineToPoint(path, nil, self.width*0.52, self.width/27);
     
     return path;
 }
@@ -251,13 +254,13 @@
     //create mutable path
     CGMutablePathRef path = CGPathCreateMutable();
     CGPathMoveToPoint(path, nil, self.width/5, self.width/2);
-    CGPathAddCurveToPoint(path, nil, self.width/4.5, self.width/2, self.width/2+1, self.width/2, self.width/1.35, self.width/2);
-    CGPathAddCurveToPoint(path, nil, self.width+2, self.width/2, self.width/1.07,  2.00, self.width/2,  2);
-    CGPathAddCurveToPoint(path, nil, self.width/4.1,  2.00,  2.00, self.width/4.1,  2, self.width/2);
-    CGPathAddCurveToPoint(path, nil,  2.00, self.width/1.322, self.width/4.1, self.width-2, self.width/2, self.width-2);
-    CGPathAddCurveToPoint(path, nil, self.width/1.322, self.width-2, self.width-2, self.width/1.322, self.width-2, self.width/2);
-    CGPathAddCurveToPoint(path, nil, self.width-2, self.width/4.1, self.width/1.274,  2.00, self.width/2,  2);
-    CGPathAddCurveToPoint(path, nil, self.width/4.1,  2.00,  2.00, self.width/4.1,  2, self.width/2);
+    CGPathAddCurveToPoint(path, nil, self.width/4.5,    self.width/2,       self.width*0.52,    self.width/2,       self.width/1.35,    self.width/2);
+    CGPathAddCurveToPoint(path, nil, self.width*1.037,  self.width/2,       self.width/1.07,    self.width/27,      self.width/2,       self.width/27);
+    CGPathAddCurveToPoint(path, nil, self.width/4.1,    self.width/27,      self.width/27,      self.width/4.1,     self.width/27,      self.width/2);
+    CGPathAddCurveToPoint(path, nil, self.width/27,     self.width/1.322,   self.width/4.1,     self.width/1.038,   self.width/2,       self.width/1.038);
+    CGPathAddCurveToPoint(path, nil, self.width/1.322,  self.width/1.038,   self.width/1.038,   self.width/1.322,   self.width/1.038,   self.width/2);
+    CGPathAddCurveToPoint(path, nil, self.width/1.038,  self.width/4.1,     self.width/1.274,   self.width/27,      self.width/2,       self.width/27);
+    CGPathAddCurveToPoint(path, nil, self.width/4.1,    self.width/27,      self.width/27,      self.width/4.1,     self.width/27,      self.width/2);
     
     return path;
 }
@@ -369,7 +372,7 @@
     
     if(self.showButton)
     {
-        CATransform3D translation = CATransform3DMakeTranslation(-4, 0 , 0);
+        CATransform3D translation = CATransform3DMakeTranslation((self.width/13.5)*-1, 0 , 0);
         
         topTransform.toValue = [NSValue valueWithCATransform3D:CATransform3DRotate(translation, -0.7853975, 0, 0, 1)];
         topTransform.beginTime = CACurrentMediaTime() + 0.25;

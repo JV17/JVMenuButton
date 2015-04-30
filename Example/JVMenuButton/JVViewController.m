@@ -26,7 +26,7 @@
     // gradient background color
     [JVButtonHelper setGradientBackgroundInView:self.view withFirstHexColor:@"1D62F0" andSecondHexColor:@"1AD6FD"];
     
-    self.button = [[JVMenuButton alloc] initWithFrame:CGRectMake(133, 133, 54, 54) color:[JVButtonHelper colorWithHexString:@"F7F7F7"] lineWidth:1];
+    self.button = [[JVMenuButton alloc] initWithFrame:CGRectMake(133, 133, 104, 104) color:[JVButtonHelper colorWithHexString:@"F7F7F7"] lineWidth:1];
     self.button.tag = 1;
     [self.button addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
     
