@@ -14,8 +14,10 @@
 @property (nonatomic, strong) JVMenuButton *button;
 @property (nonatomic, strong) JVMenuButton *button2;
 @property (nonatomic, strong) JVMenuButton *button3;
+@property (nonatomic, strong) JVMenuButton *button4;
 
 @end
+
 
 @implementation JVViewController
 
@@ -26,13 +28,13 @@
     // gradient background color
     [JVButtonHelper setGradientBackgroundInView:self.view withFirstHexColor:@"1D62F0" andSecondHexColor:@"1AD6FD"];
     
-    self.button = [[JVMenuButton alloc] initWithFrame:CGRectMake(133, 133, 104, 104) color:[JVButtonHelper colorWithHexString:@"F7F7F7"] lineWidth:1];
+    self.button = [[JVMenuButton alloc] initWithFrame:CGRectMake(109, 100, 104, 104) color:[JVButtonHelper colorWithHexString:@"F7F7F7"] lineWidth:1];
     self.button.tag = 1;
     [self.button addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.button];
     
-    self.button2 = [[JVMenuButton alloc] initWithFrame:CGRectMake(133, 233, 54, 54) color:[JVButtonHelper colorWithHexString:@"4A4A4A"] lineWidth:2];
+    self.button2 = [[JVMenuButton alloc] initWithFrame:CGRectMake(133, 238, 54, 54) color:[JVButtonHelper colorWithHexString:@"4A4A4A"] lineWidth:2];
     self.button2.tag = 2;
     [self.button2 addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
     
@@ -43,6 +45,12 @@
     [self.button3 addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.button3];
+    
+    self.button4 = [[JVMenuButton alloc] initWithFrame:CGRectMake(139, 433, 40, 40) color:[JVButtonHelper colorWithHexString:@"00000"] lineWidth:2];
+    self.button4.tag = 4;
+    [self.button4 addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:self.button4];
 
 }
 
@@ -72,6 +80,10 @@
     else if(sender.tag == 3)
     {
         self.button3.showButton = !self.button3.showButton;
+    }
+    else if(sender.tag == 4)
+    {
+        self.button4.showButton = !self.button4.showButton;
     }
 }
 
