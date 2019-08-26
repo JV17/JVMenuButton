@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.version          = "1.0"
   s.summary          = "Cool animated hamburger menu button in Objective-C."
   s.description      = "Cool animated hamburger menu button created natively in Objective-C."
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JVMenuButton"
+  s.homepage         = "https://github.com/JV17/JVMenuButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jorge Valbuena" => "jorgevalbuena2@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JVMenuButton.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/JV17/JVMenuButton.git", :tag => s.version.to_s }
   s.platform     = :ios, '11.0'
   s.requires_arc = true
   s.source_files = 'Pod/Classes/**/*'
