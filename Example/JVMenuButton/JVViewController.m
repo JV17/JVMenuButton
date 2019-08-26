@@ -28,35 +28,30 @@
     // gradient background color
     [JVButtonHelper setGradientBackgroundInView:self.view withFirstHexColor:@"1D62F0" andSecondHexColor:@"1AD6FD"];
     
-    self.button = [[JVMenuButton alloc] initWithFrame:CGRectMake(109, 100, 104, 104) color:[JVButtonHelper colorWithHexString:@"F7F7F7"] lineWidth:1];
+    self.button = [[JVMenuButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-52, 100, 104, 104) color:[JVButtonHelper colorWithHexString:@"F7F7F7"] lineWidth:1];
     self.button.tag = 1;
     [self.button addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.button];
     
-    self.button2 = [[JVMenuButton alloc] initWithFrame:CGRectMake(133, 238, 54, 54) color:[JVButtonHelper colorWithHexString:@"4A4A4A"] lineWidth:2];
+    self.button2 = [[JVMenuButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-27, 238, 54, 54) color:[JVButtonHelper colorWithHexString:@"4A4A4A"] lineWidth:2];
     self.button2.tag = 2;
     [self.button2 addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.button2];
 
-    self.button3 = [[JVMenuButton alloc] initWithFrame:CGRectMake(133, 333, 54, 54) color:[JVButtonHelper colorWithHexString:@"1F1F21"] lineWidth:3];
+    self.button3 = [[JVMenuButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-27, 333, 54, 54) color:[JVButtonHelper colorWithHexString:@"1F1F21"] lineWidth:3];
     self.button3.tag = 3;
     [self.button3 addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.button3];
     
-    self.button4 = [[JVMenuButton alloc] initWithFrame:CGRectMake(139, 433, 40, 40) color:[JVButtonHelper colorWithHexString:@"00000"] lineWidth:2];
+    self.button4 = [[JVMenuButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-20, 433, 40, 40) color:[JVButtonHelper colorWithHexString:@"00000"] lineWidth:2];
     self.button4.tag = 4;
     [self.button4 addTarget:self action:@selector(toggleJVMenuButton:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.button4];
 
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle

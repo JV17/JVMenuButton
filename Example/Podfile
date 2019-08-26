@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'JVMenuButton', :exclusive => true do
+platform :ios, '11.0'
+
+target 'JVMenuButton' do
   pod "JVMenuButton", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "JVMenuButton", :path => "../"
-
-  
 end

@@ -7,860 +7,666 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02836D19723020B0C17E7697 /* JVButtonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 138E8B53316C89723D996562 /* JVButtonHelper.h */; };
-		02A0142B50238F3273B05E12 /* JVButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BC605D2FAF79B92FE785EC /* JVButton.h */; };
-		100218F68281CF10CC07EDFE /* JVButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD36B11C5DC9B746403E079 /* JVButtonHelper.m */; };
-		1E1850CC356A92F2E7E75DB1 /* CAShapeLayer+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = 8838A2564A64C8BC28F2A189 /* CAShapeLayer+Animations.h */; };
-		22F0BF772F9A9B944F0EE827 /* JVMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC5F12EA58C4A6276333577 /* JVMenuButton.h */; };
-		23E09BA1AF657D240A87F016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD8C47737389CEDCCF0ACA /* Foundation.framework */; };
-		29EA30D08E99D846020222C4 /* JVMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC5F12EA58C4A6276333577 /* JVMenuButton.h */; };
-		346B6B2423AE5479B789DC56 /* Pods-JVMenuButton-JVMenuButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8116DE4413925056EC5426E2 /* Pods-JVMenuButton-JVMenuButton-dummy.m */; };
-		36C7C2F8326729E127D51A67 /* JVMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3D213E93692C46E4CEB42D /* JVMenuButton.m */; };
-		4043082EFF10F52F9A672933 /* JVButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BC605D2FAF79B92FE785EC /* JVButton.h */; };
-		4AAD073AE6D53D14A4448305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD8C47737389CEDCCF0ACA /* Foundation.framework */; };
-		4F85D26932AF2BCB26EB7EB9 /* JVMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3D213E93692C46E4CEB42D /* JVMenuButton.m */; };
-		50C8D7F540A73281FEF401ED /* Pods-Tests-JVMenuButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 917EEDE5E143E8B629965B30 /* Pods-Tests-JVMenuButton-dummy.m */; };
-		5FE31A55ABE2384416F36706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD8C47737389CEDCCF0ACA /* Foundation.framework */; };
-		68ACDCE55EDF9E2219357B31 /* CAShapeLayer+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = 8838A2564A64C8BC28F2A189 /* CAShapeLayer+Animations.h */; };
-		744ED5C5D89D52AA92E6B847 /* JVButtonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 138E8B53316C89723D996562 /* JVButtonHelper.h */; };
-		B1F6B383F162A3FE1C534EF8 /* CAShapeLayer+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEFA8616661CD4CBB8E9F9 /* CAShapeLayer+Animations.m */; };
-		B8589D2CB063169046103F1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD8C47737389CEDCCF0ACA /* Foundation.framework */; };
-		C4C113813000565060CF6937 /* JVButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD36B11C5DC9B746403E079 /* JVButtonHelper.m */; };
-		DFD9207783EC5BF563A94373 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C101C340E18D072A1EFA3A /* Pods-Tests-dummy.m */; };
-		F8AE207D39727B519DDDB3F0 /* CAShapeLayer+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEFA8616661CD4CBB8E9F9 /* CAShapeLayer+Animations.m */; };
-		FCA92E0E9A74C14BD673E486 /* Pods-JVMenuButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3DF573DE1A4167E11DAF5B /* Pods-JVMenuButton-dummy.m */; };
+		3BFB68DA6E1D9CFAFD535C713C991070 /* JVButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D71B172EAD5A1076B23DDFFB349EC9 /* JVButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40B0BE489B126512FB705EED185BCACB /* JVButtonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 847ADFC3C23CBF42268A24C1BAF03F1D /* JVButtonHelper.m */; };
+		4BB86FCBBF26D9A033B0C985F0BF7561 /* JVMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC7D4BFE5862D935360D788F9DE3261 /* JVMenuButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		809EF9FC8EEFD57647592C82E20DE87E /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF7BCFF4B7A1765EBCD4F689230C205 /* Pods-Tests-dummy.m */; };
+		9A28A75B865E2DF24B1249B1E415259A /* Pods-JVMenuButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8CFB0862B22251B7C05E52AAD23D68 /* Pods-JVMenuButton-dummy.m */; };
+		AD87FF5ABDEEAABFC07030931FE75983 /* CAShapeLayer+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9619137C1D8364ED92C9E046353892 /* CAShapeLayer+Animations.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF15B987605FE54D95CBE926D7AC1EF6 /* JVMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838506A51C5BA3A926B97CD6610DB15B /* JVMenuButton.m */; };
+		C68576258A3C425CC196362C583CD400 /* JVButtonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEBC3CA8413FF1DBF960A15D75E2293 /* JVButtonHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3E1F254F53720C2A0F7274F031B2F9C /* JVMenuButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016FBE3D2D22A10E75862ED58B81450 /* JVMenuButton-dummy.m */; };
+		FE133539257E4D98E5D0263D76DD9D50 /* CAShapeLayer+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 32350A9FD7461A4F1D609F673DE18CB1 /* CAShapeLayer+Animations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7B6633F925A37DEA6981A30C /* PBXContainerItemProxy */ = {
+		BBB60ECC7480BF37135933182DE2AC31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F21EA48E986BA5916A597C1D /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C826E67477B6DB3B58E4B23;
-			remoteInfo = "Pods-Tests-JVMenuButton";
+			remoteGlobalIDString = 353BD5218687685718B2FBF3D1AAF2C9;
+			remoteInfo = JVMenuButton;
 		};
-		7E9E5FB7773AD590EB10D859 /* PBXContainerItemProxy */ = {
+		DB380A4691E08BF53AB2D7BBD271C44C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F21EA48E986BA5916A597C1D /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 321E5D597ED7F1D4E927AD04;
-			remoteInfo = "Pods-JVMenuButton-JVMenuButton";
-		};
-		B659CA54EAE9ADA675929A21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F21EA48E986BA5916A597C1D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A60F2DE8E7A8BBAC95ED3093;
-			remoteInfo = "Pods-JVMenuButton-JVMenuButton-JVMenuButton";
-		};
-		CC5817747D57055F2ABA97EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F21EA48E986BA5916A597C1D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CE73E3F719D6162D060F09F;
-			remoteInfo = "Pods-Tests-JVMenuButton-JVMenuButton";
+			remoteGlobalIDString = 353BD5218687685718B2FBF3D1AAF2C9;
+			remoteInfo = JVMenuButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		138E8B53316C89723D996562 /* JVButtonHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JVButtonHelper.h; sourceTree = "<group>"; };
-		13B16E614B2DE6F1F4BBB454 /* Pods-JVMenuButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMenuButton.release.xcconfig"; sourceTree = "<group>"; };
-		21D13258C745BA2AFDF9B317 /* Pods-JVMenuButton-JVMenuButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMenuButton-JVMenuButton.xcconfig"; sourceTree = "<group>"; };
-		2784C1D4FD62A5C6CCE8C8E6 /* Pods-JVMenuButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVMenuButton-acknowledgements.plist"; sourceTree = "<group>"; };
-		2896C71B0E83D04E3A194BFA /* libPods-Tests-JVMenuButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-JVMenuButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28CACA61DEA919D60B883022 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36DF95A359CD257BEE9B734C /* Pods-JVMenuButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVMenuButton-resources.sh"; sourceTree = "<group>"; };
-		3AD36B11C5DC9B746403E079 /* JVButtonHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JVButtonHelper.m; sourceTree = "<group>"; };
-		3FEC6EFFAC756D0490B6FBF7 /* libPods-JVMenuButton-JVMenuButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JVMenuButton-JVMenuButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B3DF573DE1A4167E11DAF5B /* Pods-JVMenuButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVMenuButton-dummy.m"; sourceTree = "<group>"; };
-		4C26715D77C6977E3F1962FF /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		547C7AB6BAB0F4B2F96D169C /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		62A1B07FB75B90EFFB5E3E7C /* Pods-JVMenuButton-JVMenuButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVMenuButton-JVMenuButton-prefix.pch"; sourceTree = "<group>"; };
-		8116DE4413925056EC5426E2 /* Pods-JVMenuButton-JVMenuButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVMenuButton-JVMenuButton-dummy.m"; sourceTree = "<group>"; };
-		86DFDB6321B4EF9B791931B1 /* Pods-Tests-JVMenuButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JVMenuButton-Private.xcconfig"; path = "../Pods-Tests-JVMenuButton/Pods-Tests-JVMenuButton-Private.xcconfig"; sourceTree = "<group>"; };
-		8838A2564A64C8BC28F2A189 /* CAShapeLayer+Animations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Animations.h"; sourceTree = "<group>"; };
-		8EFDDAD9141C6F85FCD62630 /* JVMenuButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVMenuButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		917EEDE5E143E8B629965B30 /* Pods-Tests-JVMenuButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-JVMenuButton-dummy.m"; path = "../Pods-Tests-JVMenuButton/Pods-Tests-JVMenuButton-dummy.m"; sourceTree = "<group>"; };
-		97C101C340E18D072A1EFA3A /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		9ABEFA8616661CD4CBB8E9F9 /* CAShapeLayer+Animations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Animations.m"; sourceTree = "<group>"; };
-		9C6A396B6DBBD15AEDB3AF55 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		A361D0A07F256689E2FD031A /* Pods-Tests-JVMenuButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JVMenuButton.xcconfig"; path = "../Pods-Tests-JVMenuButton/Pods-Tests-JVMenuButton.xcconfig"; sourceTree = "<group>"; };
-		B6E296E52FBB5C10AB0DE870 /* libPods-JVMenuButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JVMenuButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C001553A9A9FEE0D27B88FFB /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C0C878E761D2EE8B5DDA2892 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C9AD8C47737389CEDCCF0ACA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CAC5F12EA58C4A6276333577 /* JVMenuButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JVMenuButton.h; sourceTree = "<group>"; };
-		CF3D213E93692C46E4CEB42D /* JVMenuButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JVMenuButton.m; sourceTree = "<group>"; };
-		E163BA86764F4230F7ABD3C9 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E67716CF803F899A3CA748C4 /* Pods-JVMenuButton-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVMenuButton-environment.h"; sourceTree = "<group>"; };
-		E7BC605D2FAF79B92FE785EC /* JVButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JVButton.h; sourceTree = "<group>"; };
-		EA287D7991EEA90AFD3D2585 /* Pods-JVMenuButton-JVMenuButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMenuButton-JVMenuButton-Private.xcconfig"; sourceTree = "<group>"; };
-		EC22368844B75499F5CA5174 /* JVMenuButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVMenuButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEA030B4AAA2A70E0F60B2D3 /* Pods-JVMenuButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVMenuButton-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F54C50F8F879DBD9392AB2AB /* Pods-JVMenuButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMenuButton.debug.xcconfig"; sourceTree = "<group>"; };
-		FA7513AC5C99A3D06F9C5E28 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FF439C37B290F28418EB8744 /* Pods-Tests-JVMenuButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-JVMenuButton-prefix.pch"; path = "../Pods-Tests-JVMenuButton/Pods-Tests-JVMenuButton-prefix.pch"; sourceTree = "<group>"; };
+		025C649AA948FFC412B0668C65255B49 /* libJVMenuButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJVMenuButton.a; path = libJVMenuButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1550CD6D725E8D6A61A76200510710A9 /* JVMenuButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVMenuButton.xcconfig; sourceTree = "<group>"; };
+		155B7D666C8C62F93E97A6907631C7C0 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		32350A9FD7461A4F1D609F673DE18CB1 /* CAShapeLayer+Animations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAShapeLayer+Animations.m"; path = "Pod/Classes/CAShapeLayer+Animations.m"; sourceTree = "<group>"; };
+		3C557C6D38C9CC7D92B0331C31B3716F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4D62F7199104976A9EFF71DB831CAF0C /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6806D464FD50005BDC578419A2BEE00B /* Pods-JVMenuButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMenuButton.release.xcconfig"; sourceTree = "<group>"; };
+		7DF7BCFF4B7A1765EBCD4F689230C205 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		838506A51C5BA3A926B97CD6610DB15B /* JVMenuButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVMenuButton.m; path = Pod/Classes/JVMenuButton.m; sourceTree = "<group>"; };
+		847ADFC3C23CBF42268A24C1BAF03F1D /* JVButtonHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVButtonHelper.m; path = Pod/Classes/JVButtonHelper.m; sourceTree = "<group>"; };
+		8513C929098EB29262265817C743E3A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8A4481E97BDF173BF8CBE7503A4D7498 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FC7D4BFE5862D935360D788F9DE3261 /* JVMenuButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVMenuButton.h; path = Pod/Classes/JVMenuButton.h; sourceTree = "<group>"; };
+		9016FBE3D2D22A10E75862ED58B81450 /* JVMenuButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVMenuButton-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEBC3CA8413FF1DBF960A15D75E2293 /* JVButtonHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVButtonHelper.h; path = Pod/Classes/JVButtonHelper.h; sourceTree = "<group>"; };
+		C322DF30D0E6EEB6C4184BB47430894F /* Pods-JVMenuButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVMenuButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA9721FFBEBD6160A9892CE1E3036375 /* libPods-JVMenuButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JVMenuButton.a"; path = "libPods-JVMenuButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8CFB0862B22251B7C05E52AAD23D68 /* Pods-JVMenuButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVMenuButton-dummy.m"; sourceTree = "<group>"; };
+		D7A2AD5045A09A49ED408A73AB4CBCB7 /* JVMenuButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVMenuButton-prefix.pch"; sourceTree = "<group>"; };
+		E1D71B172EAD5A1076B23DDFFB349EC9 /* JVButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVButton.h; path = Pod/Classes/JVButton.h; sourceTree = "<group>"; };
+		E58558805EAEDADB8955ED291E98A1B2 /* Pods-JVMenuButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVMenuButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDC6F8A800230076C25932D1CA10C4CC /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEB7B705D7EBDB5D87F362E222A82F0D /* JVMenuButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JVMenuButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF9619137C1D8364ED92C9E046353892 /* CAShapeLayer+Animations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAShapeLayer+Animations.h"; path = "Pod/Classes/CAShapeLayer+Animations.h"; sourceTree = "<group>"; };
+		F75CE2A634F2126EFC730E1AC4B6A48C /* Pods-JVMenuButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVMenuButton.debug.xcconfig"; sourceTree = "<group>"; };
+		FC95D668E217CFBB25845AA15162348B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B02DE50173C625136068ED8 /* Frameworks */ = {
+		048FD5B9C3086C1A608537E3B58153A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97B2E9680956390F604515A3 /* Frameworks */ = {
+		A3C310A3C7CEDA2809C7C48C1AC2A216 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D51ECF49F2D1708B94E2A7CB /* Frameworks */ = {
+		F5EEAC04372B2A0D6A3B96F63C80A080 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AAD073AE6D53D14A4448305 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E442926BE52A5802B3CEDB45 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FE31A55ABE2384416F36706 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E77493414AEF726A7A52027D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8589D2CB063169046103F1A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0B39567D82EE41CA42CAC2C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23E09BA1AF657D240A87F016 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C0C41646500108511183B30 /* Products */ = {
+		292680ACD2733CCA0500E399F62AB90C /* Pods-JVMenuButton */ = {
 			isa = PBXGroup;
 			children = (
-				8EFDDAD9141C6F85FCD62630 /* JVMenuButton.bundle */,
-				EC22368844B75499F5CA5174 /* JVMenuButton.bundle */,
-				B6E296E52FBB5C10AB0DE870 /* libPods-JVMenuButton.a */,
-				3FEC6EFFAC756D0490B6FBF7 /* libPods-JVMenuButton-JVMenuButton.a */,
-				28CACA61DEA919D60B883022 /* libPods-Tests.a */,
-				2896C71B0E83D04E3A194BFA /* libPods-Tests-JVMenuButton.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1883F21838BB6F7B6CE3C1C0 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C0C878E761D2EE8B5DDA2892 /* Pods-Tests-acknowledgements.markdown */,
-				C001553A9A9FEE0D27B88FFB /* Pods-Tests-acknowledgements.plist */,
-				97C101C340E18D072A1EFA3A /* Pods-Tests-dummy.m */,
-				9C6A396B6DBBD15AEDB3AF55 /* Pods-Tests-environment.h */,
-				4C26715D77C6977E3F1962FF /* Pods-Tests-resources.sh */,
-				547C7AB6BAB0F4B2F96D169C /* Pods-Tests.debug.xcconfig */,
-				E163BA86764F4230F7ABD3C9 /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		62CCEA0418CF893C8AE97863 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8838A2564A64C8BC28F2A189 /* CAShapeLayer+Animations.h */,
-				9ABEFA8616661CD4CBB8E9F9 /* CAShapeLayer+Animations.m */,
-				E7BC605D2FAF79B92FE785EC /* JVButton.h */,
-				138E8B53316C89723D996562 /* JVButtonHelper.h */,
-				3AD36B11C5DC9B746403E079 /* JVButtonHelper.m */,
-				CAC5F12EA58C4A6276333577 /* JVMenuButton.h */,
-				CF3D213E93692C46E4CEB42D /* JVMenuButton.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		70BBCA11232C6C8A16B33BA4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				21D13258C745BA2AFDF9B317 /* Pods-JVMenuButton-JVMenuButton.xcconfig */,
-				EA287D7991EEA90AFD3D2585 /* Pods-JVMenuButton-JVMenuButton-Private.xcconfig */,
-				8116DE4413925056EC5426E2 /* Pods-JVMenuButton-JVMenuButton-dummy.m */,
-				62A1B07FB75B90EFFB5E3E7C /* Pods-JVMenuButton-JVMenuButton-prefix.pch */,
-				A361D0A07F256689E2FD031A /* Pods-Tests-JVMenuButton.xcconfig */,
-				86DFDB6321B4EF9B791931B1 /* Pods-Tests-JVMenuButton-Private.xcconfig */,
-				917EEDE5E143E8B629965B30 /* Pods-Tests-JVMenuButton-dummy.m */,
-				FF439C37B290F28418EB8744 /* Pods-Tests-JVMenuButton-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-JVMenuButton-JVMenuButton";
-			sourceTree = "<group>";
-		};
-		94857813EB7703391A111037 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F14498B4F3A54BA3AB3F3BB5 /* Pods-JVMenuButton */,
-				1883F21838BB6F7B6CE3C1C0 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A83E568A3078544AD06AD294 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EB55C6CD59D8F5F15EDC42D1 /* JVMenuButton */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A92D2D5DFA0BF69A0DBDB4E9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				62CCEA0418CF893C8AE97863 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		AA1329C869EBD1E991816333 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C9AD8C47737389CEDCCF0ACA /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CF87B309FF33FB9C73CF5210 = {
-			isa = PBXGroup;
-			children = (
-				FA7513AC5C99A3D06F9C5E28 /* Podfile */,
-				A83E568A3078544AD06AD294 /* Development Pods */,
-				F7B625A04BEE77B7414CCC1E /* Frameworks */,
-				0C0C41646500108511183B30 /* Products */,
-				94857813EB7703391A111037 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		EB55C6CD59D8F5F15EDC42D1 /* JVMenuButton */ = {
-			isa = PBXGroup;
-			children = (
-				A92D2D5DFA0BF69A0DBDB4E9 /* Pod */,
-				70BBCA11232C6C8A16B33BA4 /* Support Files */,
-			);
-			name = JVMenuButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F14498B4F3A54BA3AB3F3BB5 /* Pods-JVMenuButton */ = {
-			isa = PBXGroup;
-			children = (
-				EEA030B4AAA2A70E0F60B2D3 /* Pods-JVMenuButton-acknowledgements.markdown */,
-				2784C1D4FD62A5C6CCE8C8E6 /* Pods-JVMenuButton-acknowledgements.plist */,
-				4B3DF573DE1A4167E11DAF5B /* Pods-JVMenuButton-dummy.m */,
-				E67716CF803F899A3CA748C4 /* Pods-JVMenuButton-environment.h */,
-				36DF95A359CD257BEE9B734C /* Pods-JVMenuButton-resources.sh */,
-				F54C50F8F879DBD9392AB2AB /* Pods-JVMenuButton.debug.xcconfig */,
-				13B16E614B2DE6F1F4BBB454 /* Pods-JVMenuButton.release.xcconfig */,
+				C322DF30D0E6EEB6C4184BB47430894F /* Pods-JVMenuButton-acknowledgements.markdown */,
+				E58558805EAEDADB8955ED291E98A1B2 /* Pods-JVMenuButton-acknowledgements.plist */,
+				CC8CFB0862B22251B7C05E52AAD23D68 /* Pods-JVMenuButton-dummy.m */,
+				F75CE2A634F2126EFC730E1AC4B6A48C /* Pods-JVMenuButton.debug.xcconfig */,
+				6806D464FD50005BDC578419A2BEE00B /* Pods-JVMenuButton.release.xcconfig */,
 			);
 			name = "Pods-JVMenuButton";
 			path = "Target Support Files/Pods-JVMenuButton";
 			sourceTree = "<group>";
 		};
-		F7B625A04BEE77B7414CCC1E /* Frameworks */ = {
+		4B86D52BCD740373FEADA31E851AA135 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA1329C869EBD1E991816333 /* iOS */,
+				025C649AA948FFC412B0668C65255B49 /* libJVMenuButton.a */,
+				CA9721FFBEBD6160A9892CE1E3036375 /* libPods-JVMenuButton.a */,
+				FC95D668E217CFBB25845AA15162348B /* libPods-Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64CC87AB93C59429FC2DBEE058F3783 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1550CD6D725E8D6A61A76200510710A9 /* JVMenuButton.xcconfig */,
+				9016FBE3D2D22A10E75862ED58B81450 /* JVMenuButton-dummy.m */,
+				D7A2AD5045A09A49ED408A73AB4CBCB7 /* JVMenuButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVMenuButton";
+			sourceTree = "<group>";
+		};
+		ABAAA3CA90ECEA28855117AD940200BA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7B705D7EBDB5D87F362E222A82F0D /* JVMenuButton.podspec */,
+				3C557C6D38C9CC7D92B0331C31B3716F /* LICENSE */,
+				8513C929098EB29262265817C743E3A8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CAB1305FFA968A8C47039D215455D350 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0B74E084C56F61FD8FC4D896036A144 /* JVMenuButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CAB1305FFA968A8C47039D215455D350 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4B86D52BCD740373FEADA31E851AA135 /* Products */,
+				FF6BE00177063B4D97517476E24386BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B74E084C56F61FD8FC4D896036A144 /* JVMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				EF9619137C1D8364ED92C9E046353892 /* CAShapeLayer+Animations.h */,
+				32350A9FD7461A4F1D609F673DE18CB1 /* CAShapeLayer+Animations.m */,
+				E1D71B172EAD5A1076B23DDFFB349EC9 /* JVButton.h */,
+				9DEBC3CA8413FF1DBF960A15D75E2293 /* JVButtonHelper.h */,
+				847ADFC3C23CBF42268A24C1BAF03F1D /* JVButtonHelper.m */,
+				8FC7D4BFE5862D935360D788F9DE3261 /* JVMenuButton.h */,
+				838506A51C5BA3A926B97CD6610DB15B /* JVMenuButton.m */,
+				ABAAA3CA90ECEA28855117AD940200BA /* Pod */,
+				A64CC87AB93C59429FC2DBEE058F3783 /* Support Files */,
+			);
+			name = JVMenuButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9DB4D5BCADD940EC4E7C475528499E2 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A4481E97BDF173BF8CBE7503A4D7498 /* Pods-Tests-acknowledgements.markdown */,
+				155B7D666C8C62F93E97A6907631C7C0 /* Pods-Tests-acknowledgements.plist */,
+				7DF7BCFF4B7A1765EBCD4F689230C205 /* Pods-Tests-dummy.m */,
+				EDC6F8A800230076C25932D1CA10C4CC /* Pods-Tests.debug.xcconfig */,
+				4D62F7199104976A9EFF71DB831CAF0C /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		FF6BE00177063B4D97517476E24386BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				292680ACD2733CCA0500E399F62AB90C /* Pods-JVMenuButton */,
+				E9DB4D5BCADD940EC4E7C475528499E2 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		89A04DB303625E2F276066B3 /* Headers */ = {
+		37FF280DC78018FAED7C22B31E533169 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68ACDCE55EDF9E2219357B31 /* CAShapeLayer+Animations.h in Headers */,
-				4043082EFF10F52F9A672933 /* JVButton.h in Headers */,
-				744ED5C5D89D52AA92E6B847 /* JVButtonHelper.h in Headers */,
-				22F0BF772F9A9B944F0EE827 /* JVMenuButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B40EDA219B640FCCF90AE453 /* Headers */ = {
+		90541713E2E956AD5641D211DB1B1D35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E1850CC356A92F2E7E75DB1 /* CAShapeLayer+Animations.h in Headers */,
-				02A0142B50238F3273B05E12 /* JVButton.h in Headers */,
-				02836D19723020B0C17E7697 /* JVButtonHelper.h in Headers */,
-				29EA30D08E99D846020222C4 /* JVMenuButton.h in Headers */,
+				AD87FF5ABDEEAABFC07030931FE75983 /* CAShapeLayer+Animations.h in Headers */,
+				3BFB68DA6E1D9CFAFD535C713C991070 /* JVButton.h in Headers */,
+				C68576258A3C425CC196362C583CD400 /* JVButtonHelper.h in Headers */,
+				4BB86FCBBF26D9A033B0C985F0BF7561 /* JVMenuButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF945CE1C65D0C3D9A16B7893FD8869 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1DA52619B1E82EE15071BA0E /* Pods-Tests */ = {
+		353BD5218687685718B2FBF3D1AAF2C9 /* JVMenuButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B21039BDD910A2FAB9C967C8 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = D592D35F00584E81ED4138A9C97D4087 /* Build configuration list for PBXNativeTarget "JVMenuButton" */;
 			buildPhases = (
-				61C3E9638E3EDB21F955C931 /* Sources */,
-				E77493414AEF726A7A52027D /* Frameworks */,
+				90541713E2E956AD5641D211DB1B1D35 /* Headers */,
+				829BD19839B825C17E1CAA47EC35C9C4 /* Sources */,
+				048FD5B9C3086C1A608537E3B58153A2 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C64313788FB7BBF5243FC7D8 /* PBXTargetDependency */,
+			);
+			name = JVMenuButton;
+			productName = JVMenuButton;
+			productReference = 025C649AA948FFC412B0668C65255B49 /* libJVMenuButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		958186CF7D75761173A23E66E0CCAF14 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EE6184C0A88CB27C86682AF9AC4943 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				FCF945CE1C65D0C3D9A16B7893FD8869 /* Headers */,
+				EFA76CDF3D1EB91F818B35864F042747 /* Sources */,
+				A3C310A3C7CEDA2809C7C48C1AC2A216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3669BB58C7FE9E94EAE0660FC4E55A /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = 28CACA61DEA919D60B883022 /* libPods-Tests.a */;
+			productReference = FC95D668E217CFBB25845AA15162348B /* libPods-Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		321E5D597ED7F1D4E927AD04 /* Pods-JVMenuButton-JVMenuButton */ = {
+		B5A79A91F69F5D4D69696D15EF49D3FC /* Pods-JVMenuButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92BB6FBE56020FF0172B59EF /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton-JVMenuButton" */;
+			buildConfigurationList = 40D5317DB2C5E756CBB82DDAFC891B43 /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton" */;
 			buildPhases = (
-				054ADFF0A8C1001A98FC9AED /* Sources */,
-				F0B39567D82EE41CA42CAC2C /* Frameworks */,
-				B40EDA219B640FCCF90AE453 /* Headers */,
+				37FF280DC78018FAED7C22B31E533169 /* Headers */,
+				979CEDB786B5CE6D76BB3304999C89E3 /* Sources */,
+				F5EEAC04372B2A0D6A3B96F63C80A080 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FEED5E57222449520954D5A0 /* PBXTargetDependency */,
-			);
-			name = "Pods-JVMenuButton-JVMenuButton";
-			productName = "Pods-JVMenuButton-JVMenuButton";
-			productReference = 3FEC6EFFAC756D0490B6FBF7 /* libPods-JVMenuButton-JVMenuButton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		4CE73E3F719D6162D060F09F /* Pods-Tests-JVMenuButton-JVMenuButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9C00FD15DE23EF91BC388FF /* Build configuration list for PBXNativeTarget "Pods-Tests-JVMenuButton-JVMenuButton" */;
-			buildPhases = (
-				598721980A568900AB5A9F18 /* Sources */,
-				97B2E9680956390F604515A3 /* Frameworks */,
-				C4EE12FB824CF06B7F212297 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Tests-JVMenuButton-JVMenuButton";
-			productName = "Pods-Tests-JVMenuButton-JVMenuButton";
-			productReference = 8EFDDAD9141C6F85FCD62630 /* JVMenuButton.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		6C826E67477B6DB3B58E4B23 /* Pods-Tests-JVMenuButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 742E09333EFE3E6B7EB4886F /* Build configuration list for PBXNativeTarget "Pods-Tests-JVMenuButton" */;
-			buildPhases = (
-				49CC2316D7AF5C848F6CF346 /* Sources */,
-				D51ECF49F2D1708B94E2A7CB /* Frameworks */,
-				89A04DB303625E2F276066B3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46A45E5B764F8EB9753F052A /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-JVMenuButton";
-			productName = "Pods-Tests-JVMenuButton";
-			productReference = 2896C71B0E83D04E3A194BFA /* libPods-Tests-JVMenuButton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		752EDAEB2696E09628AAD602 /* Pods-JVMenuButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA78947A57EA02C8D0F7612A /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton" */;
-			buildPhases = (
-				90451C20BF55C0AAD8A456F6 /* Sources */,
-				E442926BE52A5802B3CEDB45 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				414BB62FB8ABA8411D617064 /* PBXTargetDependency */,
+				8C9817A955F635D17C2292C47AF34136 /* PBXTargetDependency */,
 			);
 			name = "Pods-JVMenuButton";
 			productName = "Pods-JVMenuButton";
-			productReference = B6E296E52FBB5C10AB0DE870 /* libPods-JVMenuButton.a */;
+			productReference = CA9721FFBEBD6160A9892CE1E3036375 /* libPods-JVMenuButton.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		A60F2DE8E7A8BBAC95ED3093 /* Pods-JVMenuButton-JVMenuButton-JVMenuButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2534E8F1FC77C565C98D50CD /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton-JVMenuButton-JVMenuButton" */;
-			buildPhases = (
-				3C945C0118E2BE2EE170BD8E /* Sources */,
-				4B02DE50173C625136068ED8 /* Frameworks */,
-				98BD097C21A46BC27478EDDE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-JVMenuButton-JVMenuButton-JVMenuButton";
-			productName = "Pods-JVMenuButton-JVMenuButton-JVMenuButton";
-			productReference = EC22368844B75499F5CA5174 /* JVMenuButton.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F21EA48E986BA5916A597C1D /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 379C849B9617A2AA8072F60B /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CF87B309FF33FB9C73CF5210;
-			productRefGroup = 0C0C41646500108511183B30 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4B86D52BCD740373FEADA31E851AA135 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				752EDAEB2696E09628AAD602 /* Pods-JVMenuButton */,
-				321E5D597ED7F1D4E927AD04 /* Pods-JVMenuButton-JVMenuButton */,
-				A60F2DE8E7A8BBAC95ED3093 /* Pods-JVMenuButton-JVMenuButton-JVMenuButton */,
-				1DA52619B1E82EE15071BA0E /* Pods-Tests */,
-				6C826E67477B6DB3B58E4B23 /* Pods-Tests-JVMenuButton */,
-				4CE73E3F719D6162D060F09F /* Pods-Tests-JVMenuButton-JVMenuButton */,
+				353BD5218687685718B2FBF3D1AAF2C9 /* JVMenuButton */,
+				B5A79A91F69F5D4D69696D15EF49D3FC /* Pods-JVMenuButton */,
+				958186CF7D75761173A23E66E0CCAF14 /* Pods-Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		98BD097C21A46BC27478EDDE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4EE12FB824CF06B7F212297 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		054ADFF0A8C1001A98FC9AED /* Sources */ = {
+		829BD19839B825C17E1CAA47EC35C9C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8AE207D39727B519DDDB3F0 /* CAShapeLayer+Animations.m in Sources */,
-				100218F68281CF10CC07EDFE /* JVButtonHelper.m in Sources */,
-				36C7C2F8326729E127D51A67 /* JVMenuButton.m in Sources */,
-				346B6B2423AE5479B789DC56 /* Pods-JVMenuButton-JVMenuButton-dummy.m in Sources */,
+				FE133539257E4D98E5D0263D76DD9D50 /* CAShapeLayer+Animations.m in Sources */,
+				40B0BE489B126512FB705EED185BCACB /* JVButtonHelper.m in Sources */,
+				F3E1F254F53720C2A0F7274F031B2F9C /* JVMenuButton-dummy.m in Sources */,
+				BF15B987605FE54D95CBE926D7AC1EF6 /* JVMenuButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C945C0118E2BE2EE170BD8E /* Sources */ = {
+		979CEDB786B5CE6D76BB3304999C89E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A28A75B865E2DF24B1249B1E415259A /* Pods-JVMenuButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49CC2316D7AF5C848F6CF346 /* Sources */ = {
+		EFA76CDF3D1EB91F818B35864F042747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F6B383F162A3FE1C534EF8 /* CAShapeLayer+Animations.m in Sources */,
-				C4C113813000565060CF6937 /* JVButtonHelper.m in Sources */,
-				4F85D26932AF2BCB26EB7EB9 /* JVMenuButton.m in Sources */,
-				50C8D7F540A73281FEF401ED /* Pods-Tests-JVMenuButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		598721980A568900AB5A9F18 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61C3E9638E3EDB21F955C931 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFD9207783EC5BF563A94373 /* Pods-Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90451C20BF55C0AAD8A456F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCA92E0E9A74C14BD673E486 /* Pods-JVMenuButton-dummy.m in Sources */,
+				809EF9FC8EEFD57647592C82E20DE87E /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		414BB62FB8ABA8411D617064 /* PBXTargetDependency */ = {
+		8C9817A955F635D17C2292C47AF34136 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-JVMenuButton-JVMenuButton";
-			target = 321E5D597ED7F1D4E927AD04 /* Pods-JVMenuButton-JVMenuButton */;
-			targetProxy = 7E9E5FB7773AD590EB10D859 /* PBXContainerItemProxy */;
+			name = JVMenuButton;
+			target = 353BD5218687685718B2FBF3D1AAF2C9 /* JVMenuButton */;
+			targetProxy = BBB60ECC7480BF37135933182DE2AC31 /* PBXContainerItemProxy */;
 		};
-		46A45E5B764F8EB9753F052A /* PBXTargetDependency */ = {
+		CB3669BB58C7FE9E94EAE0660FC4E55A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-JVMenuButton-JVMenuButton";
-			target = 4CE73E3F719D6162D060F09F /* Pods-Tests-JVMenuButton-JVMenuButton */;
-			targetProxy = CC5817747D57055F2ABA97EA /* PBXContainerItemProxy */;
-		};
-		C64313788FB7BBF5243FC7D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-JVMenuButton";
-			target = 6C826E67477B6DB3B58E4B23 /* Pods-Tests-JVMenuButton */;
-			targetProxy = 7B6633F925A37DEA6981A30C /* PBXContainerItemProxy */;
-		};
-		FEED5E57222449520954D5A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JVMenuButton-JVMenuButton-JVMenuButton";
-			target = A60F2DE8E7A8BBAC95ED3093 /* Pods-JVMenuButton-JVMenuButton-JVMenuButton */;
-			targetProxy = B659CA54EAE9ADA675929A21 /* PBXContainerItemProxy */;
+			name = JVMenuButton;
+			target = 353BD5218687685718B2FBF3D1AAF2C9 /* JVMenuButton */;
+			targetProxy = DB380A4691E08BF53AB2D7BBD271C44C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		026DD59A60F1CB5DD51A4F80 /* Debug */ = {
+		14C43E68A56BFE26DE14CDB388E2595A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D62F7199104976A9EFF71DB831CAF0C /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JVMenuButton;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		11B5D64C17BF0DEB8FB93827 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4A13CE75743415394D5444AB /* Release */ = {
+		20E49C45C9B6D35B0669A2CF4D13F965 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA287D7991EEA90AFD3D2585 /* Pods-JVMenuButton-JVMenuButton-Private.xcconfig */;
+			baseConfigurationReference = 6806D464FD50005BDC578419A2BEE00B /* Pods-JVMenuButton.release.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JVMenuButton-JVMenuButton/Pods-JVMenuButton-JVMenuButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4DAFC2F5EF358929E49B4326 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 547C7AB6BAB0F4B2F96D169C /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		513406F9EB4AA803E8B48D3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86DFDB6321B4EF9B791931B1 /* Pods-Tests-JVMenuButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JVMenuButton/Pods-Tests-JVMenuButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		52F36371D3134E66B8AF5E3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA287D7991EEA90AFD3D2585 /* Pods-JVMenuButton-JVMenuButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JVMenuButton-JVMenuButton/Pods-JVMenuButton-JVMenuButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7D4D66624A4DBB12216E93A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86DFDB6321B4EF9B791931B1 /* Pods-Tests-JVMenuButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JVMenuButton/Pods-Tests-JVMenuButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8444BA01849C0205B5294BA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F54C50F8F879DBD9392AB2AB /* Pods-JVMenuButton.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9637E6066BAC4AE2E70C3386 /* Debug */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B2C8856DB2349C95982F5CF87F7766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75CE2A634F2126EFC730E1AC4B6A48C /* Pods-JVMenuButton.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A11FA6D418CC4CC8FDF8B36CEB2B9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1550CD6D725E8D6A61A76200510710A9 /* JVMenuButton.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JVMenuButton/JVMenuButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JVMenuButton;
+				PRODUCT_NAME = JVMenuButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BBF3AED34DDDB69B83052DC277CDA7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC6F8A800230076C25932D1CA10C4CC /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		97D2902C01F1D73B262AA890 /* Release */ = {
+		E52FEA6CC7472313308892DAF5DA6062 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13B16E614B2DE6F1F4BBB454 /* Pods-JVMenuButton.release.xcconfig */;
+			baseConfigurationReference = 1550CD6D725E8D6A61A76200510710A9 /* JVMenuButton.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JVMenuButton/JVMenuButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C12D74989172C4EE01B966EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E163BA86764F4230F7ABD3C9 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		CA439810120409CE8D304A67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JVMenuButton;
 				PRODUCT_NAME = JVMenuButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		EB229B7B829BBFEA12F22470 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JVMenuButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FD8573BBAD3BFE5DD70E8BB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JVMenuButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2534E8F1FC77C565C98D50CD /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton-JVMenuButton-JVMenuButton" */ = {
+		40D5317DB2C5E756CBB82DDAFC891B43 /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA439810120409CE8D304A67 /* Debug */,
-				FD8573BBAD3BFE5DD70E8BB2 /* Release */,
+				3B2C8856DB2349C95982F5CF87F7766E /* Debug */,
+				20E49C45C9B6D35B0669A2CF4D13F965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		379C849B9617A2AA8072F60B /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9637E6066BAC4AE2E70C3386 /* Debug */,
-				11B5D64C17BF0DEB8FB93827 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		742E09333EFE3E6B7EB4886F /* Build configuration list for PBXNativeTarget "Pods-Tests-JVMenuButton" */ = {
+		48EE6184C0A88CB27C86682AF9AC4943 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				513406F9EB4AA803E8B48D3C /* Debug */,
-				7D4D66624A4DBB12216E93A4 /* Release */,
+				8BBF3AED34DDDB69B83052DC277CDA7D /* Debug */,
+				14C43E68A56BFE26DE14CDB388E2595A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92BB6FBE56020FF0172B59EF /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton-JVMenuButton" */ = {
+		D592D35F00584E81ED4138A9C97D4087 /* Build configuration list for PBXNativeTarget "JVMenuButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52F36371D3134E66B8AF5E3C /* Debug */,
-				4A13CE75743415394D5444AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A9C00FD15DE23EF91BC388FF /* Build configuration list for PBXNativeTarget "Pods-Tests-JVMenuButton-JVMenuButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				026DD59A60F1CB5DD51A4F80 /* Debug */,
-				EB229B7B829BBFEA12F22470 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B21039BDD910A2FAB9C967C8 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DAFC2F5EF358929E49B4326 /* Debug */,
-				C12D74989172C4EE01B966EF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA78947A57EA02C8D0F7612A /* Build configuration list for PBXNativeTarget "Pods-JVMenuButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8444BA01849C0205B5294BA6 /* Debug */,
-				97D2902C01F1D73B262AA890 /* Release */,
+				6A11FA6D418CC4CC8FDF8B36CEB2B9C9 /* Debug */,
+				E52FEA6CC7472313308892DAF5DA6062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F21EA48E986BA5916A597C1D /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

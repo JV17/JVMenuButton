@@ -9,30 +9,15 @@
 
 Pod::Spec.new do |s|
   s.name             = "JVMenuButton"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JVMenuButton."
-  s.description      = <<-DESC
-                       An optional longer description of JVMenuButton
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.version          = "1.0"
+  s.summary          = "Cool animated hamburger menu button in Objective-C."
+  s.description      = "Cool animated hamburger menu button created natively in Objective-C."
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/JVMenuButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jorge Valbuena" => "jorgevalbuena2@gmail.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JVMenuButton.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '11.0'
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'JVMenuButton' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

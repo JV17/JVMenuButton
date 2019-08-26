@@ -1,8 +1,8 @@
 {
   "name": "JVMenuButton",
-  "version": "0.1.0",
+  "version": "1.0",
   "summary": "A short description of JVMenuButton.",
-  "description": "                       An optional longer description of JVMenuButton\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "description": "An optional longer description of JVMenuButton\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
   "homepage": "https://github.com/<GITHUB_USERNAME>/JVMenuButton",
   "license": "MIT",
   "authors": {
@@ -10,16 +10,11 @@
   },
   "source": {
     "git": "https://github.com/<GITHUB_USERNAME>/JVMenuButton.git",
-    "tag": "0.1.0"
+    "tag": "1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "11.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "JVMenuButton": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Pod/Classes/**/*"
 }

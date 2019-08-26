@@ -26,9 +26,12 @@
 /**
  *  Creates a JVMenuButton with frame, button color, button line width and initialize all dependencies of the button
  *
- *  @param a CGRect which specifies the button frame
- *  @param a UIColor which specifies the button color
- *  @param a CGFloat which specifies the button line width
+ *  @param frame
+        A CGRect which specifies the button frame
+ *  @param color
+        A UIColor which specifies the button color
+ *  @param lineWidth
+        A CGFloat which specifies the button line width
  *
  *  @return a JVMenuButton
  */
@@ -38,8 +41,6 @@
 /**
  *  Creates a JVMenuButton with no frame, standard color and line width. Also, initialize all dependencies of the button
  *
- *  @param n/a
- *
  *  @return a JVMenuButton
  */
 - (instancetype)init;
@@ -48,7 +49,8 @@
 /**
  *  Creates a JVMenuButton with frame, standard color and line width. Also, initialize all dependencies of the button
  *
- *  @param a CGRect which specifies the button frame
+ *  @param frame
+        A CGRect which specifies the button frame
  *
  *  @return a JVMenuButton
  */
@@ -57,8 +59,6 @@
 
 /**
  *  Throws an exception to indicate the use of `initWithFrame:(CGRect)frame` method instead
- *
- *  @param n/a
  *
  *  @return exception
  */

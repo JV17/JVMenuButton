@@ -20,10 +20,8 @@
 @property (nonatomic, strong) CAShapeLayer *topLayer;
 @property (nonatomic, strong) CAShapeLayer *bottomLayer;
 @property (nonatomic, strong) CAShapeLayer *middleLayer;
-
 @property (nonatomic) CGPathRef btnShortStroke;
 @property (nonatomic) CGPathRef btnOutline;
-
 @property (nonatomic) CGFloat width;
 
 @end
@@ -31,16 +29,8 @@
 
 @implementation JVMenuButton
 
-
 #pragma mark - Initializers
 
-/**
- *  Throws an exception to indicate the use of `initWithFrame:(CGRect)frame` method instead
- *
- *  @param n/a
- *
- *  @return exception
-*/
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
     @throw [NSException exceptionWithName:NSGenericException
@@ -48,42 +38,16 @@
                                  userInfo:nil];
 }
 
-
-/**
- *  Creates a JVMenuButton with no frame, standard color and line width. Also, initialize all dependencies of the button
- *
- *  @param n/a
- *
- *  @return a JVMenuButton
-*/
 - (instancetype)init
 {
     return [self initWithFrame:CGRectZero color:[UIColor whiteColor] lineWidth:4];
 }
 
-
-/**
- *  Creates a JVMenuButton with frame, standard color and line width. Also, initialize all dependencies of the button
- *
- *  @param a CGRect which specifies the button frame
- *
- *  @return a JVMenuButton
- */
 - (instancetype)initWithFrame:(CGRect)frame
 {
     return [self initWithFrame:frame color:[UIColor whiteColor] lineWidth:4];
 }
 
-
-/**
- *  Creates a JVMenuButton with frame, button color, button line width and initialize all dependencies of the button
- *
- *  @param a CGRect which specifies the button frame
- *  @param a UIColor which specifies the button color
- *  @param a CGFloat which specifies the button line width
- *
- *  @return a JVMenuButton
- */
 - (instancetype)initWithFrame:(CGRect)frame color:(UIColor *)color lineWidth:(CGFloat)lineWidth
 {
     if (!(self = [super initWithFrame:frame]))
@@ -101,13 +65,6 @@
     return self;
 }
 
-
-/**
- *  Added a check for button size, to avoid odd button drawing when animating 
- *  the button should have the same width and height for animation work as expected
- *
- *  @return n/a (void)
- */
 - (void)checkButtonSizeFrame:(CGSize)size
 {
     if(size.width != size.height)
@@ -118,13 +75,6 @@
     }
 }
 
-
-/**
- *  JVMenuButton commonInit handle all the initializer dependencies of the button
- *  here we want to set all the necessaries properties and functionality of the button
- *
- *  @return n/a (void)
-*/
 - (void)commonInit
 {
     // keeping track of the button frame
@@ -169,12 +119,6 @@
 
 #pragma mark - Custom getters & setters
 
-/**
- *  Custom getter & setter for topLayer CAShapeLayer, here we want to set the property
- *  with all the values we want in it using (Lazy Loading)
- *
- *  @return a CAShapeLayer topLayer
-*/
 - (CAShapeLayer *)topLayer
 {
     if(!_topLayer)
@@ -185,13 +129,6 @@
     return _topLayer;
 }
 
-
-/**
- *  Custom getter & setter for middleLayer CAShapeLayer, here we want to set the property
- *  with all the values we want in it using (Lazy Loading)
- *
- *  @return a CAShapeLayer middleLayer
- */
 - (CAShapeLayer *)middleLayer
 {
     if(!_middleLayer)
@@ -202,13 +139,6 @@
     return _middleLayer;
 }
 
-
-/**
- *  Custom getter & setter for bottomLayer CAShapeLayer, here we want to set the property
- *  with all the values we want in it using (Lazy Loading)
- *
- *  @return a CAShapeLayer bottomLayer
- */
 - (CAShapeLayer *)bottomLayer
 {
     if(!_bottomLayer)
@@ -219,13 +149,6 @@
     return _bottomLayer;
 }
 
-
-/**
- *  Custom getter & setter for btnShortStroke CGPathRef, here we want to set the property
- *  with all the values we want in it
- *
- *  @return a CGPathRef btnShortStroke
- */
 - (CGPathRef)btnShortStroke
 {
     //create mutable path
@@ -236,13 +159,6 @@
     return path;
 }
 
-
-/**
- *  Custom getter & setter for btnOutline CGPathRef, here we want to set the property
- *  with all the values we want in it
- *
- *  @return a CGPathRef btnOutline
- */
 - (CGPathRef)btnOutline
 {
     //create mutable path
@@ -259,15 +175,6 @@
     return path;
 }
 
-
-/**
- *  Custom setter for color UIColor, here we want to set the property
- *  and update the button if its already been created
- *
- *  @param a UIColor color
- *
- *  @return n/a (void)
- */
 - (void)setColor:(UIColor *)color
 {
     _color = color;
@@ -279,15 +186,6 @@
     }
 }
 
-
-/**
- *  Custom setter for lineWidth CGFloat, here we want to set the property
- *  and update the button if its already been created
- *
- *  @param a CGFloat lineWidth
- *
- *  @return n/a (void)
- */
 - (void)setLineWidth:(CGFloat)lineWidth
 {
     _lineWidth = lineWidth;
@@ -299,16 +197,6 @@
     }
 }
 
-
-/**
- *  Custom setter for showButton BOOL, here we want to set the property
- *  with all the values we want in it and excute the buttom animations
- *  depending on its showing state
- *
- *  @param a BOOL showButton
- *
- *  @return n/a (void)
-*/
 - (void)setShowButton:(BOOL)showButton
 {
     _showButton = showButton;
@@ -320,12 +208,6 @@
 
 #pragma mark - Button animations
 
-/**
- *  A helper functions for the button animations which is currently trigger
- *  in the setter of the showButton property
- *
- *  @return n/a (void)
- */
 - (void)performJVMenuButtonAnimations
 {
     CABasicAnimation *strokeStart = [CABasicAnimation animationWithKeyPath:@"strokeStart"];
